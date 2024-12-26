@@ -1,7 +1,7 @@
 [project]
 name = "ip_finder"
 version = "0.0.1"
-authors = [{ name = "Asherza", email = "asherstrab@gmail.com" }]
+authors = [{ name = "Asherza" }]
 description = "A module that allows you to search on a set of mac address and return their IPs if they are found on your network"
 readme = "README.md"
 requires-python = ">=3.8"
