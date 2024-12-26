@@ -1,0 +1,14 @@
+[project]
+name = "ip_finder"
+version = "0.0.1"
+authors = [{ name = "Asherza" }]
+description = "A module that allows you to search on a set of mac address and return their IPs if they are found on your network"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/Asherza/ip_finder"
