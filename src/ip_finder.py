@@ -45,7 +45,6 @@ class IPFinder():
             # Find if we have a matching entry
             match = list(filter(lambda x: x.mac ==
                          address['addresses'].get('mac'), self._hosts))
-            print(match)
             # Match found, assign IP!
             if len(match) > 0:
                 match = match.pop()
@@ -59,7 +58,7 @@ class IPFinder():
         toml = None
         with open(file, "rb") as f:
             toml = tomlkit.loads(f.read())
-        print(self._hosts)
+
         # Update any hosts found in file with an IP that was found
         for host in self._hosts:
             if ip := host.ip:
